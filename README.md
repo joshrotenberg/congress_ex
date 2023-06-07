@@ -2,8 +2,7 @@
 
 <!-- MDOC !-->
 
-[![Elixir CI](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml/badge.svg)](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml)
-[![Slack][badge-slack]][badge-slack-link]
+[![Elixir CI](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml/badge.svg)](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml)[![Slack][badge-slack]][badge-slack-link]
 
 ## Installation
 
