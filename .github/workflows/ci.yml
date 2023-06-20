@@ -68,8 +68,8 @@ jobs:
     - name: Run tests
       run: mix test --trace
 
-    - name: Run test coverage
-      run: mix coveralls.github
+    # - name: Run test coverage
+    #   run: mix coveralls.github
 
     - name: Run credo
       run: mix credo
