@@ -1,6 +1,8 @@
 defmodule Congress.MixProject do
   use Mix.Project
 
+  @source_url "https://github.com/joshrotenberg/congress_ex"
+
   def project do
     [
       app: :congress_ex,
@@ -8,12 +10,26 @@ defmodule Congress.MixProject do
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+      package: package(),
+      test_coverage: [tool: ExCoveralls],
       preferred_cli_env: [
+        coveralls: :test,
+        "coveralls.detail": :test,
+        "coveralls.post": :test,
+        "coveralls.html": :test,
         vcr: :test,
         "vcr.delete": :test,
         "vcr.check": :test,
         "vcr.show": :test
       ]
+    ]
+  end
+
+  defp package do
+    [
+      maintainers: ["Josh Rotenberg"],
+      licenses: ["Apache"],
+      links: %{"GitHub" => @source_url}
     ]
   end
 
