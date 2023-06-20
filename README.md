@@ -1,10 +1,11 @@
 # Congress
 
+[![Elixir CI](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml/badge.svg)](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/joshrotenberg/congress_ex/badge.svg?branch=main)](https://coveralls.io/github/joshrotenberg/congress_ex?branch=main)
+
 <!-- MDOC !-->
 
-[![Elixir CI](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml/badge.svg)](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml)[![Slack][badge-slack]][badge-slack-link]
-
-[![Coverage Status](https://coveralls.io/repos/github/joshrotenberg/congress_ex/badge.svg?branch=main)](https://coveralls.io/github/joshrotenberg/congress_ex?branch=main)
+An Elixir Client for the [United States Congress](https://www.congress.gov) [API](https://api.congress.gov).
 
 ## Installation
 
@@ -22,4 +23,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/congress_ex>.
-
