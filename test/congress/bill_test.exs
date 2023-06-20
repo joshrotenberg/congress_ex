@@ -5,7 +5,7 @@ defmodule Congress.BillTest do
 
   setup_all do
     api_key = System.get_env("CONGRESS_TEST_API_KEY")
-    req = Congress.new(api_key)
+    req = Congress.new(api_key: api_key)
     {:ok, req: req}
   end
 

@@ -7,7 +7,10 @@ defmodule Congress.MixProject do
       version: "0.1.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      preferred_cli_env: [
+        vcr: :test, "vcr.delete": :test, "vcr.check": :test, "vcr.show": :test
+      ],
     ]
   end
 
@@ -27,6 +30,7 @@ defmodule Congress.MixProject do
 
       # dev and test
       {:excoveralls, "~> 0.10", only: :test},
+      {:exvcr, "~> 0.11", only: :test},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:mix_audit, "~> 2.0", only: [:dev, :test], runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},

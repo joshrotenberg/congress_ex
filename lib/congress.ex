@@ -8,12 +8,8 @@ defmodule Congress do
   @default_user_agent "Congress (elixir)/#{Mix.Project.config()[:version]}"
   @default_api_key_env "CONGRESS_API_KEY"
 
-  def new() do
-    api_key = System.get_env(@default_api_key_env)
-    new(api_key)
-  end
-
-  def new(api_key, opts \\ []) do
+  def new(opts \\ []) do
+    api_key = Keyword.get(opts, :api_key, System.get_env(@default_api_key_env))
     base_url = Keyword.get(opts, :base_url, @default_base_url)
     user_agent = Keyword.get(opts, :user_agent, @default_user_agent)
 

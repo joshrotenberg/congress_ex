@@ -1,2 +1,2 @@
 api_key = System.get_env("CONGRESS_API_KEY")
-req = Congress.new(api_key)
+req = Congress.new(api_key: api_key)
