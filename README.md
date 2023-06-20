@@ -3,6 +3,7 @@
 <!-- MDOC !-->
 
 [![Elixir CI](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml/badge.svg)](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml)[![Slack][badge-slack]][badge-slack-link]
+[![Coverage Status](https://coveralls.io/repos/github/joshrotenberg/congress_ex/badge.svg?branch=main)](https://coveralls.io/github/joshrotenberg/congress_ex?branch=main)
 
 ## Installation
 
