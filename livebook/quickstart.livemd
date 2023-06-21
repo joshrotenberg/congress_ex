@@ -31,4 +31,5 @@ Get more information about the first bill in the list:
 ```elixir
 first = List.first(response.bills)
 {:ok, bill} = Congress.Bill.bill(req, first.congress, first.type, first.number)
+{:ok, summaries} = Congress.Bill.summaries(req, first.congress, first.type, first.number)
 ```
