@@ -26,3 +26,5 @@ congress_ex-*.tar
 /tmp/
 
 .elixir_ls
+
+.vimrc
