@@ -1,0 +1,46 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "user-agent": "Congress (elixir)/0.1.0",
+        "accept-encoding": "gzip, deflate"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.congress.gov/v3/bill?api_key=hASwgfnQQ2rJzBvZbYvlzXStfcWRPrGbHSDHaUae"
+    },
+    "response": {
+      "binary": true,
+      "body": "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",
+      "headers": {
+        "date": "Wed, 21 Jun 2023 23:26:07 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "access-control-allow-origin": "*",
+        "age": "2",
+        "cache-control": "max-age=900",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "7db003b31bcceb9f-SEA",
+        "content-encoding": "gzip",
+        "expires": "Wed, 21 Jun 2023 23:41:07 GMT",
+        "set-cookie": "__cf_bm=wNPfdnsb.fBsK.Oxjw2zUqEgaO6VLgx8374XHcTvZoI-1687389967-0-AUAgGX3pp6zxMTnhc1P4ZRsBFBJUmZIc68/qI8HS631hYLeyRKM8pMdBFLtNIjX2kHxQZ/DdVqBXoYaSi6wlJ5U=; path=/; expires=Wed, 21-Jun-23 23:56:07 GMT; domain=.congress.gov; HttpOnly; SameSite=None",
+        "strict-transport-security": "max-age=31536000; preload",
+        "vary": "Accept-Encoding",
+        "via": "http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])",
+        "x-api-umbrella-request-id": "c8s13onqv9a60dv2bovg",
+        "x-cache": "MISS",
+        "x-ratelimit-limit": "1000",
+        "x-ratelimit-remaining": "954",
+        "x-vcap-request-id": "52669891-24bb-40d5-6982-bf0798e007bf",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "1; mode=block"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

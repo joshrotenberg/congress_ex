@@ -1,0 +1,46 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "user-agent": "Congress (elixir)/0.1.0",
+        "accept-encoding": "gzip, deflate"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.congress.gov/v3/bill/117/hr?api_key=hASwgfnQQ2rJzBvZbYvlzXStfcWRPrGbHSDHaUae"
+    },
+    "response": {
+      "binary": true,
+      "body": "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",
+      "headers": {
+        "date": "Wed, 21 Jun 2023 23:27:04 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "access-control-allow-origin": "*",
+        "age": "0",
+        "cache-control": "max-age=900",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "7db0052719d4c509-SEA",
+        "content-encoding": "gzip",
+        "expires": "Wed, 21 Jun 2023 23:41:12 GMT",
+        "set-cookie": "__cf_bm=KuqrOg72f92ZRfI_l6DNgA5YiNe4HpR2T135yJREDt8-1687390024-0-Aepe0yzSqibIC2xuozIySP7doDlUwxQG9Bhs8mMzFtocrIxE5sZ7z8bNe35Neuy2b3N9GCgEJ5JCAJfgsexzumY=; path=/; expires=Wed, 21-Jun-23 23:57:04 GMT; domain=.congress.gov; HttpOnly; SameSite=None",
+        "strict-transport-security": "max-age=31536000; preload",
+        "vary": "Accept-Encoding",
+        "via": "http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])",
+        "x-api-umbrella-request-id": "c8s1478pf9ik8hr4hfcg",
+        "x-cache": "MISS",
+        "x-ratelimit-limit": "1000",
+        "x-ratelimit-remaining": "942",
+        "x-vcap-request-id": "0f75c44f-dff7-4074-4d19-e02a315fa6da",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "1; mode=block"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

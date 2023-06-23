@@ -47,13 +47,16 @@ defmodule Congress.MixProject do
       {:jason, "~> 1.4"},
       {:recase, "~> 0.7.0"},
 
-      # dev and test
+      # dev
+      {:credo, "~> 1.7", only: [:dev], runtime: false},
+      {:dialyxir, "~> 1.3", only: [:dev], runtime: false},
+      {:doctor, "~> 0.21.0", only: [:dev], runtime: false},
+      {:ex_doc, "~> 0.29.4", only: [:dev], runtime: false},
+      {:mix_audit, "~> 2.1", only: [:dev], runtime: false},
+
+      # test
       {:exvcr, "~> 0.11", only: :test},
-      {:excoveralls, "~> 0.16", only: :test},
-      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
-      {:mix_audit, "~> 2.0", only: [:dev, :test], runtime: false},
-      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:dialyxir, "~> 1.2", only: [:dev, :test], runtime: false}
+      {:excoveralls, "~> 0.16", only: :test}
     ]
   end
 end

@@ -33,18 +33,18 @@ defmodule Congress do
   end
 
   @doc """
-  Return the previous page of items, if any. Takes the client reference and a response from 
+  Returns the previous page of items or nil. Takes the client reference and a response from 
   any API call that returns a list of items.
   """
   def previous(req, %{pagination: %{prev: prev}}) when prev != nil, do: page(req, prev)
-  def previous(_req, _resp), do: {:error, "No previous element"}
+  def previous(_req, _resp), do: nil
 
   @doc """
-  Return the next page of items, if any. Takes the client reference and a response from 
+  Returns the next page of items or nil. Takes the client reference and a response from 
   any API call that returns a list of items.
   """
   def next(req, %{pagination: %{next: next}}) when next != nil, do: page(req, next)
-  def next(_req, _resp), do: {:error, "No next element"}
+  def next(_req, _resp), do: nil
 
   @doc false
   defp page(req, url) do
