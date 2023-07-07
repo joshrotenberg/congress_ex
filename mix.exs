@@ -48,7 +48,7 @@ defmodule Congress.MixProject do
       {:recase, "~> 0.7.0"},
 
       # dev
-      {:credo, "~> 1.7", only: [:dev], runtime: false},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:doctor, "~> 0.21.0", only: [:dev], runtime: false},
       {:ex_doc, "~> 0.29.4", only: [:dev], runtime: false},
       {:mix_audit, "~> 2.1", only: [:dev], runtime: false},
