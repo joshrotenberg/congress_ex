@@ -49,14 +49,14 @@ defmodule Congress.MixProject do
 
       # dev
       {:credo, "~> 1.7", only: [:dev], runtime: false},
-      {:dialyxir, "~> 1.3", only: [:dev], runtime: false},
       {:doctor, "~> 0.21.0", only: [:dev], runtime: false},
       {:ex_doc, "~> 0.29.4", only: [:dev], runtime: false},
       {:mix_audit, "~> 2.1", only: [:dev], runtime: false},
 
       # test
       {:exvcr, "~> 0.11", only: :test},
-      {:excoveralls, "~> 0.16", only: :test}
+      {:excoveralls, "~> 0.16", only: :test},
+      {:dialyxir, "~> 1.3", only: :test, runtime: false}
     ]
   end
 end
