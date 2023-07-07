@@ -32,6 +32,20 @@ defmodule Congress.ExVCR.BillTest do
         assert length(response.bills) == 20
       end
     end
+
+    test "bill pagination ", %{req: req} do
+      {:ok, response} = Congress.Bill.bills(req, congress: 117)
+      assert Congress.previous(req, response) == nil
+      assert Congress.next(req, response) != nil
+
+      {:ok, response} = Congress.Bill.bills(req, congress: 117, offset: 2)
+      assert Congress.previous(req, response) != nil
+      assert Congress.next(req, response) != nil
+
+      {:ok, response} = Congress.Bill.bills(req, congress: 117, offset: 211_000)
+      assert Congress.previous(req, response) != nil
+      assert Congress.next(req, response) == nil
+    end
   end
 
   describe "bill" do
