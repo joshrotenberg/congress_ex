@@ -1,6 +1,6 @@
 # Congress
 
-[![Elixir CI](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml/badge.svg)](https://github.com/joshrotenberg/congress_ex/actions/workflows/ci.yml)
+[![Elixir CI](https://github.com/joshrotenberg/congress_ex/actions/workflows/checl.yml/badge.svg)](https://github.com/joshrotenberg/congress_ex/actions/workflows/check.yml)
 [![Coverage Status](https://coveralls.io/repos/github/joshrotenberg/congress_ex/badge.svg?branch=main)](https://coveralls.io/github/joshrotenberg/congress_ex?branch=main)
 
 <!-- MDOC !-->
